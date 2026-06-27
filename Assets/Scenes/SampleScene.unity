@@ -509,10 +509,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdbd8e40f17682a4598acdd50545871e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  speed: 5
-  jumpForce: 400
+  hiz: 5
+  zipgucu: 400
   zipcarpani: 0
+  y: 1
   tabanzip: 400
+  maxzip: 1
 --- !u!1 &1787350206
 GameObject:
   m_ObjectHideFlags: 0
