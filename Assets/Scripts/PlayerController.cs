@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
         {
             zipcarpani += Time.deltaTime * y ;
             zipcarpani = Mathf.Clamp(zipcarpani, 0f, maxzip);
+            Time.timeScale = 1f - zipcarpani;
         }
         if (Input.GetButtonUp("Jump"))
         {
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
                 
             }
         zipcarpani = 0f;
+        Time.timeScale = 1f;
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
