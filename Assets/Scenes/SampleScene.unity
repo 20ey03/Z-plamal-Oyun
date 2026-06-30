@@ -408,6 +408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraController
   player: {fileID: 889781755}
+  yakinlastir: 5
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -623,7 +624,7 @@ CircleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: d782b8383e5d8a74eac88c2311263152, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -667,6 +668,7 @@ MonoBehaviour:
   y: 1
   tabanzip: 400
   maxzip: 1
+  isGrounded: 1
 --- !u!1 &1787350206
 GameObject:
   m_ObjectHideFlags: 0

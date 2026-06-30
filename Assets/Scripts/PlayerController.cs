@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public float tabanzip = 400f;
     public float maxzip = 1f;
     Rigidbody2D rb;
-    private bool isGrounded = true;
+    public bool isGrounded = true;
 
     void Start()
     {
